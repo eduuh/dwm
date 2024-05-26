@@ -1,0 +1,18 @@
+{
+  "configurations": {
+    "Launch": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+	"name": "cpp: Launch current file",
+        "request": "launch",
+	"type": "cppdbg",
+        "program": "/usr/local/bin/dwm",
+        "MIMode": "gdb",
+	"stopOnEntry": true,
+	"stopAtEntry":true,
+	"miDebuggerPath": "/usr/bin/gdb",
+	"cwd":"${cwd}"
+      }
+    }
+  }
+}
